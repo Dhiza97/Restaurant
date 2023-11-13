@@ -1,7 +1,7 @@
 
-const express = require('express')
-const ejs = require('ejs')
-const bodyParser = require('body-parser')
+import express from 'express'
+import ejs from 'ejs'
+import bodyParser from 'body-parser'
 
 const app = express()
 
@@ -15,7 +15,6 @@ app.get('/', (req, res) => {
 })
 
 //slideshow using javascript
-
 
 
 
