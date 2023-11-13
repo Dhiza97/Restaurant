@@ -14,6 +14,14 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
+app.get('/career', (req, res) => {
+    res.render('career')
+})
+
+app.post('/career', (req, res) => {
+    
+})
+
 //slideshow using javascript
 
 
