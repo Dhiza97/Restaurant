@@ -22,6 +22,7 @@ a {
     height: 60px;
     padding: 5px;
     font-size: 13px;
+    position: relative;
 }
 
 .main-nav .main-logo {
@@ -45,11 +46,6 @@ a {
     padding-bottom: 2px;
 }
 
-/* .main-nav ul li a:hover {
-    border-bottom: 2px solid rgb(182, 119, 3);
-    opacity: 0.8;
-} */
-
 .main-nav ul li::after {
     content: "";
     width: 0;
@@ -64,6 +60,10 @@ a {
     width: 100%;
 }
 
+.right-menu {
+    position: absolute;
+    right: 5%;
+}
 
 .display {
     width: 100%;
@@ -270,25 +270,9 @@ a {
     text-align: center;
 }
 
-/* Each slide styled with a fixed width and height */
-
-.slide img {
-    width: 120px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-}
-
-.slide h3 {
-    color: rgb(43, 43, 43);
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.slide p {
-    width: 60%;
-    margin: 0 auto;
-    color: rgb(43, 43, 43);
-    margin-bottom: 10px;
+.carousel-img img {
+    width: 150px;
+    margin: 0 auto 130px;
 }
 
 hr {

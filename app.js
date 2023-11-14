@@ -22,10 +22,6 @@ app.post('/career', (req, res) => {
     
 })
 
-//slideshow using javascript
-
-
-
 
 app.listen(8080, () => {
     console.log("Server running on Port 8080")
