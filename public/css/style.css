@@ -185,14 +185,13 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
 .parallax-1 p {
-    color: #f9f9f9;
     font-size: 3.5rem;
-    position: absolute;
-    top: 100rem;
-    left: 3%;
+    margin-left: 100px;
     font-family: 'Fruktur', cursive;
     background: -webkit-linear-gradient(rgb(255, 192, 76), rgb(237, 6, 6));
     -webkit-background-clip: text;
@@ -253,14 +252,14 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 
 .parallax-2 p {
-    color: #f9f9f9;
     font-size: 3.5rem;
-    position: absolute;
-    top: 187rem;
-    left: 65%;
+    margin-right: 100px;
     font-family: 'Fruktur', cursive;
     background: -webkit-linear-gradient(#000, #f48d17);
     -webkit-background-clip: text;
