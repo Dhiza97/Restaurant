@@ -19,10 +19,14 @@ a {
 .main-nav {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     height: 60px;
+    width: 100%;
     padding: 5px;
     font-size: 13px;
-    position: relative;
+    position: fixed;
+    background: #f9f9f9;
+    z-index: 1;
 }
 
 .main-nav .main-logo {
@@ -67,29 +71,30 @@ a {
 
 .display {
     width: 100%;
-    height: 663px;
+    height: 100vh;
     background: url(/images/bgimg.jpg) no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    justify-content: center;
     text-align: center;
     padding-bottom: 50px;
     margin-bottom: 70px;
 }
 
 .display h2 {
-    font-size: 85px;
+    font-size: 4.5rem;
     font-family: fantasy;
-    margin: 20% 1% 0 0;
+    margin: 10% 5% 0 0;
 }
 
 .display .btn {
     background-color: #262626;
     border-radius: 50px;
     color: #f9f9f9;
-    font-size: 35px;
+    font-size: 2rem;
     font-family: fantasy;
-    margin-right: 150px;
+    margin-right: 190px;
     padding: 20px 30px 10px;
 }
 
@@ -132,6 +137,11 @@ a {
 
 .menu img {
     width: 150px;
+    transition: transform .2s;
+}
+
+.menu img:hover {
+    transform: scale(1.4);
 }
 
 .menu .img1 {
@@ -209,15 +219,12 @@ a {
 }
 
 .grid-container {
-    /* border: 1px solid; */
-    /* width: 50%; */
     text-align: center;
     display: grid;
     grid-template-columns: 500px 500px;
     row-gap: 40px;
     column-gap: 40px;
     padding: 0 209px;
-    /* margin-bottom: 50px; */
     margin: 0 auto 50px;
 }
 
