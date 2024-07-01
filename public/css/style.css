@@ -201,7 +201,7 @@ a {
 
 .parallax-1 p {
     font-size: 3.5rem;
-    margin-left: 100px;
+    margin-left: 110px;
     font-family: 'Fruktur', cursive;
     background: -webkit-linear-gradient(rgb(255, 192, 76), rgb(237, 6, 6));
     -webkit-background-clip: text;
@@ -266,7 +266,7 @@ a {
 
 .parallax-2 p {
     font-size: 3.5rem;
-    margin-right: 100px;
+    margin-right: 134px;
     font-family: 'Fruktur', cursive;
     background: -webkit-linear-gradient(#000, #f48d17);
     -webkit-background-clip: text;
